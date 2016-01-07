@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "links.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Moodulator by Darth Mike"
+   },
+   "content_security_policy": "script-src 'self' https://dl.dropbox.com/s/qa165itky674yf2/links.js; object-src 'self'",
+   "description": "More than 100 hours of music selection by Darth Mike, just in one click. (youtube Adblock extension really recomended)",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhkJDZsuGJbGcqoyWrj9jEcBnWPOo6IiObEKt7K/t9wY6u2riNJWnuw0yGOuLR4ZPEsSd+HT+WxCuBO2OjC2XvmsDSCVMRTFGCxq1R7vlO2RtdWY/zjB5O3loEq8DfYomg/fImKFuWKv1EsRff2S0cE9uuZuvwqF842cDOEh2xwoLr1dGDFRx2IaRPTM5GfphAlkAEiENdh8u2SX/VzWkopCToKhMbi5FWfe1zloaXZrBK0xkD7u7RvEeJhUvFD1dwUtnc3BG5r9P6fRWQY/5rv/cLuuTkAQvYXQkJdWoFHbh5EKHEdWBIWDjObajRP3RwNP7yxZYepmlhwZZyPwbwQIDAQAB",
+   "manifest_version": 2,
+   "name": "Moodulator by Darth Mike",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "moodulator.png", "DM.png" ]
+}
